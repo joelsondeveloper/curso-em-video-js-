@@ -1,0 +1,62 @@
+body{
+    background: rgb(65, 65, 180);
+    font: normal 15pt arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: rgb(141, 140, 140);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+input{
+    border-radius: 5px;
+    margin: 10px;
+}
+#button:hover, #calcular:hover{
+    background-color: rgba(0, 0, 0, 0.13);
+}
+#valor{
+    width: 70px;
+}
+.form{
+    margin: 20px;
+}
+table{
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgb(65, 65, 180);
+    margin: 20px;
+    border-style: solid;
+    height: 250px;
+    width: 100px;
+}
+
+th{
+    height: 1vw;
+    width: 1vw;
+    border-radius: 5px;
+    border-color: rgb(65, 65, 180);
+    border-style: solid;
+}
+th:hover{
+    background-color: rgb(192, 185, 185);
+    height: 5vw;
+    width: 10vw;
+    border-radius: 5px;
+    border-color: rgb(19, 19, 175);
+    border-style: solid;
+}
+#total{
+    display: flex;
+}

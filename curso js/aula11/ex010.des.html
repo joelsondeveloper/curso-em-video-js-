@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 milhas</title>
+</head>
+<body>
+    <h1>qual sua nacionalidade?</h1>
+    país: <input type="text" name="p" id="p">
+    <input type="button" value="procurar" onclick="pes()">
+    <div id="res">0 resultados</div>
+
+    <script>
+
+        function pes() {
+            var p = window.document.getElementById('p')
+            var res = window.document.getElementById('res')
+            var x = String(p.value)
+            res.innerHTML = `você mora em ${x}`
+            if (x == 'brasil') {
+                res.innerHTML += '<p>você possui nacionalidade brasileira</p>'
+
+            }
+            else {
+                res.innerHTML += '<p>você possui nacionalidade estrangeira</p>'
+            }
+        }
+    </script>
+</body>
+</html>
